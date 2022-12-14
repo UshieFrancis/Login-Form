@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: steelblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+.container{
+    background-color: #00ffff;
+    padding: 20px 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #000;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: steelblue;
+    /* letter-spacing: 3px; */
+}
+.form-control{
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+}
+.form-control input{
+    border: 0;
+    outline: 0;
+    color: #a9a9a9;
+    background-color: transparent;
+    padding: 15px 0;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-control label{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px 0;
+}
+.btn{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    font-size: 19px;
+    color: steelblue;
+}
+.btn:focus{
+    outline: 0;
+}
+.btn:hover{
+    background-color: steelblue;
+    transition: 1.2s;
+    color: #fff;
+}
+.text{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+}
